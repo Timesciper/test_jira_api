@@ -1,9 +1,6 @@
 
 import requests
-API_USER = "motdzyfrhlmshiqtzz@miucce.com"
-API_TOKEN = 'uvgT8KlLUBpY76Q5cHZM6862'
-SOURCE_LINK = 'https://olololopyshpysh.atlassian.net/rest/api/3/'
-TARGET_PROJECT = 'ITSM'
+from .settings import API_USER, API_TOKEN, SOURCE_LINK, TARGET_PROJECT
 
 
 def get_project_issues(project_id):
