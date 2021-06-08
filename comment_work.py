@@ -1,15 +1,4 @@
 
-"""
-UI:https://olololopyshpysh.atlassian.net/
-email: motdzyfrhlmshiqtzz@miucce.com
-pw: motdzyfrhlmshiqtzz
-API Token: uvgT8KlLUBpY76Q5cHZM6862
-Доки: https://developer.atlassian.com/cloud/jira/service-desk/rest/intro/
-ТЗ:
-1) Скопировать все комментарии в проекте ITSM.
-2) Запостить все коммантарии каждого запроса во внешнюю ленту комментариев данного запроса в виде одного сообщения в формате: ("\n\n"+[author]+" commented at "+ [datetime]+": \n\'"+['body']+"\'".
-3) Опционально: Удалить оригинальные комментарии.
-"""
 import requests
 API_USER = "motdzyfrhlmshiqtzz@miucce.com"
 API_TOKEN = 'uvgT8KlLUBpY76Q5cHZM6862'
